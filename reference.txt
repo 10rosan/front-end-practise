@@ -1,0 +1,36 @@
+https://www.101computing.net/html-website-layout/
+https://jolly-kalam-23776e.netlify.app/cssgridresponsive/
+
+https://docs.google.com/forms/d/e/1FAIpQLSdUr96HMwknAikvwKEAXSyhk7iVbDhGtpG90sP7QGEVGBFg-w/viewform
+https://www.101computing.net/html-website-layout/
+https://jolly-kalam-23776e.netlify.app/cssgridresponsive/
+
+https://github.com/sabitaneupane/fed-training
+
+
+imsabitaneupane@gmail.com
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+/* desktop */
+  @media only screen and (min-width: 1024px) {}
+/* tablet */
+  @media (min-width: 768px) and (max-width: 1023px) {}
+/* mobile */
+  @media only screen and (max-width: 767px) {}
+
+
+https://www.w3resource.com/javascript-exercises/
+http://www.webhammer.com/javascript/exercises/index.html
+
+
+
+https://docs.google.com/forms/d/e/1FAIpQLSdUr96HMwknAikvwKEAXSyhk7iVbDhGtpG90sP7QGEVGBFg-w/viewform
+
+https://jolly-kalam-23776e.netlify.app/cssgridresponsive
+
+
+https://roadmap.sh/
+
+imsabitaneupane@gmail.com
+
+

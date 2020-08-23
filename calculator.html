@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        #answer {
+            background-color: black;
+            color: white;
+            height: 55px;
+            width: 15%;
+            text-align: center;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h2 id="answer"></h2>
+    </div>
+    <div>
+        <label for="">Number 1</label>
+        <input type="number" id="number1">
+    </div>
+
+    <div>
+        <label for="">Number 2</label>
+        <input type="number" id="number2">
+    </div>
+
+    <button onclick="addFunction()">+</button>
+    <button onclick="subFunction()">-</button>
+    <button onclick="multiFunction()">*</button>
+    
+
+    <script>
+        
+
+        function addFunction() {
+           
+            var x = Number(document.getElementById("number1").value) ;
+            var y = Number( document.getElementById("number2").value);
+            var result = x + y;
+
+           document.getElementById('answer').innerHTML = result;
+        }
+
+        function subFunction() {
+            var x = parseInt(document.getElementById("number1").value) ;
+            var y = parseInt( document.getElementById("number2").value);
+            var result = x - y;
+
+           document.getElementById('answer').innerHTML = result;
+        }
+
+        function multiFunction() {
+            var x = parseInt(document.getElementById("number1").value) ;
+            var y = parseInt( document.getElementById("number2").value);
+            var result = x * y;
+
+           document.getElementById('answer').innerHTML = result;
+        }
+
+        
+    </script>
+
+    
+</body>
+</html>

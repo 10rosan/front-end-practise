@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<!-- <body onLoad=myFunction()> -->
+<body onload= myFunction()>
+    <button onclick=myIncreament()>Increase</button>
+
+    <button onclick=myDecrease()>Decrease</button>
+    
+    <h2 id="answer"></h2>
+
+    <script>
+        function myFunction() {
+            alert("myFunction");
+        }
+        var counter = 0 ;
+        var myString = "";
+
+        function myIncreament(){
+            
+            counter++;
+            myString = myString + counter;
+            var newAnswer = document.getElementById("answer").innerHTML= myString;
+           
+            
+        }
+        function myDecrease(){
+            
+            counter--;
+            myString= myString + counter
+            var newAnswer = document.getElementById("answer").innerHTML= myString;
+           
+            
+        }
+       
+        
+       
+    </script>
+    
+</body>
+</html>

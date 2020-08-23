@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: purple;
+    
+}
+
+#container{
+    width: 60%;
+    background-color: gray; 
+    margin: auto;
+}
+
+#header{
+    background-color: cyan;
+    padding: 60px;
+    text-align: center;
+}
+
+#navigation{
+    background-color: darkkhaki;
+    padding: 20px;
+    text-align: center;
+}
+
+#maincontent{
+    width: 75%;
+    background-color: gray;
+    float: left;
+    height: 250px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+#sidecontent{
+    width: 25%;
+    background-color: honeydew;
+    float: left;
+    height: 250px;
+    text-align: center;
+    padding-top: 40px;
+}
+#footer{
+    clear: both;
+    background-color: hotpink;
+    text-align: center;
+    padding: 30px;
+    
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}

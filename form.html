@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form onsubmit= "handleOnSubmit(event)">
+        <div>
+            <label for="fullname">Full Name</label>
+            <input type="text" id="fullname" name="fullname">
+
+        </div>
+
+        
+        <div>
+            <label for="age">Age</label>
+            <input type="number" id="age" name="age" min="0" max="100">
+
+        </div>
+
+        <div>
+            <label for="gender">Gender</label>
+            <input type="radio" id="female" name="gender" value="female" checked> Female
+            <input type="radio" id="male" name="gender" value="male"> Male
+
+        </div>
+        <div>
+            <label for="education">Education</label>
+            <select name="educationlevel" id="educationlevel">
+                <option value="plus2">+2</option>
+                <option value="bachelor">Bachelor</option>
+                <option value="master">Master</option>
+            </select>
+
+        </div>
+        
+        
+        <input type="submit">
+    </form>
+
+    <script>
+
+        function handleOnSubmit() { 
+            event.preventDefault();
+            var fname =document.getElementById("fullname").value;
+            var age =document.getElementById("age").value;
+
+            var genderElements = document.getElementsByName('gender');
+           
+            for(var i = 0; genderElements[i]; i++) {
+                if(genderElements[i].checked) {
+                    var gender = genderElements[i].value;
+                }
+            }
+
+            var educationElements = document.getElementsByName('educationlevel');
+           
+            for(var i = 0; educationElements[i]; i++) {
+                if(educationElements[i].selected) {
+                    var education = educationElements[i].value;
+                }
+            }
+
+            // var interest = [];
+            // var inputElements = document.getElementsByName('interest');
+            // for( var i = 0; inputElements[i]; i++) {
+            //     if (inputElements[i].checked) {
+            //         interest.push(inputElements[i].value);
+
+            //     }
+            // }
+
+            var userDetailObject = {
+                fullname: fname,
+                age: age,
+                gender: gender,
+                education: education,
+                // interest: []
+            }
+
+            console.log(userDetailObject);
+         }
+
+       
+    </script>
+    
+
+
+</body>
+</html>

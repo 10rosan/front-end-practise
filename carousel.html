@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carousel Practise</title>
+    <style>
+        .carousel{
+            height: 350px;
+            margin: auto;
+            width: 50%;
+            
+        }
+        .carousel img {
+            height: 350px;
+            width: 700px;
+            
+         
+        }
+        .btn {
+           margin: auto;
+           width: 5%;
+           
+        }
+        
+
+    </style>
+</head>
+<body>
+    <div class="carousel">
+        <img id="myImage" src="./images/c1.jpg" alt="">
+
+    </div>
+    <div class="btn">
+        <button onclick=myFunction1()></button>
+        <button onclick=myFunction2()></button>
+        <button onclick=myFunction3()></button>
+
+    </div>
+    
+
+    <script>
+        function myFunction1() {
+            document.getElementById("myImage").src="./images/c2.jpg";
+        }
+
+        function myFunction2() {
+            document.getElementById("myImage").src="./images/c1.jpg";
+        }
+
+        function myFunction3() {
+            document.getElementById("myImage").src="./images/c3.jpg";
+        }
+
+
+    </script>
+    
+    
+</body>
+</html>
